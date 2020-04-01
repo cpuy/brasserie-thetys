@@ -1,0 +1,17 @@
+.Beers h2,
+.Beers h3 {
+  text-transform: uppercase;
+}
+
+.Beers h2 small {
+  font-size: 0.7em;
+  display: block;
+}
+
+.Beers-GoldenAle h2 {
+  color: hsl(35, 100%, 57%);
+}
+
+.Beers-Grisette h2 {
+  color: hsl(175, 58%, 54%);
+}
