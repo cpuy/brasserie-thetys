@@ -1,12 +1,65 @@
-.Beers h2,
-.Beers h3 {
+@font-face {
+  font-family: "DINPro Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DINPro Light"), url("../fonts/DINPro-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DINPro Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DINPro Medium"),
+    url("../fonts/DINPro-Medium tr.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DINPro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DINPro Bold"), url("../fonts/DINPro-Bold tr.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DINPro Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("DINPro Black"),
+    url("../fonts/DINPro-Black tr.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Norwester";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Norwester"), url("../fonts/norwester.woff") format("woff");
+}
+
+html {
+  font-family: "DINPro Light";
+}
+
+.Beers h2 {
+  font-family: "Norwester";
   text-transform: uppercase;
+
+  font-size: 3rem;
+  font-weight: 100;
+  letter-spacing: 0.04em;
 }
 
 .Beers h2 small {
-  font-size: 0.7em;
+  font-size: 0.5em;
   display: block;
 }
+
+.Beers h3 {
+  font-size: 1rem;
+  font-family: "DINPro Medium";
+  text-transform: uppercase;
+}
+
+
 
 .Beers-GoldenAle h2 {
   color: hsl(35, 100%, 57%);
