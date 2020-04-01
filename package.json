@@ -1,0 +1,15 @@
+{
+  "name": "brasserie-thetys",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpuy/brasserie-thetys.git"
+  },
+  "author": "colinpuy.pro@gmail.com",
+  "homepage": "https://github.com/cpuy/brasserie-thetys#readme",
+  "dependencies": {
+    "prettier": "^2.0.2"
+  },
+  "scripts": {
+    "prettier": "prettier --write ."
+  }
+}
