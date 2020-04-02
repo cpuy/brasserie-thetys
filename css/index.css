@@ -59,6 +59,10 @@ html {
   text-transform: uppercase;
 }
 
+.Beers img {
+  height: 25rem;
+  width: auto;
+}
 
 
 .Beers-GoldenAle h2 {
