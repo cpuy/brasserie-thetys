@@ -104,6 +104,7 @@ html {
 .Beer:nth-child(even) .Beer-image {
   flex-direction: row-reverse;
   padding-right: 1rem;
+  text-align: right;
 }
 
 .Beer:nth-child(odd) .Beer-image {
