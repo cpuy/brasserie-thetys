@@ -148,10 +148,22 @@ html {
   color: hsl(356, 64%, 33%);
 }
 
+.Beer__BritishBrown .Beer-image {
+  background-image: url("../img/tildebrown.png");
+}
+
 .Beer__AmericanIPA h2 {
   color: hsl(338, 100%, 60%);
 }
 
+.Beer__AmericanIPA .Beer-image {
+  background-image: url("../img/tildered.png");
+}
+
 .Beer__FrenchPaleAle h2 {
   color: hsl(84, 100%, 50%);
+}
+
+.Beer__FrenchPaleAle .Beer-image {
+  background-image: url("../img/tildegreen.png");
 }
