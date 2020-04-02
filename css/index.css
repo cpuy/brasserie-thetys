@@ -39,7 +39,7 @@ html {
   font-family: "DINPro Light";
 }
 
-.Beers h2 {
+.Beer h2 {
   font-family: "Norwester";
   text-transform: uppercase;
 
@@ -48,27 +48,31 @@ html {
   letter-spacing: 0.04em;
 }
 
-.Beers h2 small {
+.Beer h2 small {
   font-size: 0.5em;
   display: block;
 }
 
-.Beers h3 {
+.Beer h3 {
   font-size: 1rem;
   font-family: "DINPro Medium";
   text-transform: uppercase;
 }
 
-.Beers img {
-  height: 25rem;
-  width: auto;
+.Beer-image {
+  display: flex;
 }
 
+.Beer-image img {
+  height: 25rem;
+  width: auto;
+  margin: auto;
+}
 
-.Beers-GoldenAle h2 {
+.Beer__GoldenAle h2 {
   color: hsl(35, 100%, 57%);
 }
 
-.Beers-Grisette h2 {
+.Beer__Grisette h2 {
   color: hsl(175, 58%, 54%);
 }
