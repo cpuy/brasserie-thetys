@@ -121,3 +121,7 @@ html {
 .Beer__Grisette h2 {
   color: hsl(175, 58%, 54%);
 }
+
+.Beer__Grisette .Beer-image {
+  background-image: url("../img/tildeblue.png");
+}
