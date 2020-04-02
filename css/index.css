@@ -142,3 +142,15 @@ html {
 .Beer__Grisette .Beer-image {
   background-image: url("../img/tildeblue.png");
 }
+
+.Beer__BritishBrown h2 {
+  color: hsl(356, 64%, 33%);
+}
+
+.Beer__AmericanIPA h2 {
+  color: hsl(338, 100%, 60%);
+}
+
+.Beer__FrenchPaleAle h2 {
+  color: hsl(84, 100%, 50%);
+}
