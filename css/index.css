@@ -39,6 +39,33 @@ html {
   font-family: "DINPro Light";
 }
 
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+
+
+  text-align: center;
+  background-image: url("../img/Front_pic.png");
+  background-position: center;
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+}
+
+.Home-logo {
+  width: 60%;
+  margin-top: 0.5rem;
+}
+
+.Home-title {
+  font-family: "DINPro Black";
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
 .Beer h2 {
   font-family: "Norwester";
   text-transform: uppercase;
