@@ -142,11 +142,17 @@ html {
   font-family: "Norwester";
   text-transform: uppercase;
 
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 100;
   letter-spacing: 0.04em;
 
   margin-bottom: 2.2rem;
+}
+
+@media screen and (min-width: 340px) {
+  .Beer h2 {
+    font-size: 3rem;
+  }
 }
 
 .Beer h2 small {
@@ -169,6 +175,7 @@ html {
   color: black
 }
 
+
 .Beer h4 small { 
   font-family: "DINPro Bold";
   font-size: 1.2rem;
@@ -176,7 +183,6 @@ html {
   margin-bottom: 1rem;
   color: black
 }
-
 
 .Beer h5 { 
   font-family: "DINPro Medium";
