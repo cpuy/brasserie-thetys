@@ -211,7 +211,7 @@ html {
 }
 
 .Beer__GoldenAle h2 {
-  color: hsl(35, 100%, 57%);
+  color: rgb(251, 176, 64);
 }
 
 .Beer__GoldenAle .Beer-image {
@@ -219,7 +219,7 @@ html {
 }
 
 .Beer__Grisette h2 {
-  color: hsl(175, 58%, 54%);
+  color: rgb(40, 160, 187);
 }
 
 .Beer__Grisette .Beer-image {
@@ -227,7 +227,7 @@ html {
 }
 
 .Beer__BritishBrown h2 {
-  color: hsl(356, 64%, 33%);
+  color: rgb(146, 56, 44);
 }
 
 .Beer__BritishBrown .Beer-image {
@@ -235,7 +235,7 @@ html {
 }
 
 .Beer__AmericanIPA h2 {
-  color: hsl(355, 100%, 67%);
+  color: rgb(241, 91, 102);
 }
 
 .Beer__AmericanIPA .Beer-image {
@@ -243,7 +243,7 @@ html {
 }
 
 .Beer__FrenchPaleAle h2 {
-  color: hsl(80, 100%, 40%);
+  color: rgb(166, 206, 56);
 }
 
 .Beer__FrenchPaleAle .Beer-image {
