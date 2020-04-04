@@ -127,7 +127,7 @@ html {
 }
 
 .Beer-title{
-  font-family: "Norwester";
+  font-family: "DINPro Black";
   text-transform: uppercase;
   font-size: 2.3rem;
   font-weight: 100;
@@ -162,11 +162,21 @@ html {
 }
 
 .Beer h4 { 
+  font-family: "DINPro Bold";
   font-size: 1.8rem;
   letter-spacing: 0.04em; 
   margin-bottom: 1rem;
   color: black
 }
+
+.Beer h4 small { 
+  font-family: "DINPro Bold";
+  font-size: 1.2rem;
+  letter-spacing: 0.04em; 
+  margin-bottom: 1rem;
+  color: black
+}
+
 
 .Beer h5 { 
   font-family: "DINPro Medium";
