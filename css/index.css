@@ -37,6 +37,7 @@
 
 html {
   font-family: "DINPro Light";
+  font-variant-ligatures: none;
 }
 
 .Home {
