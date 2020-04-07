@@ -35,6 +35,10 @@
   src: local("Norwester"), url("../fonts/norwester.woff") format("woff");
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "DINPro Light";
   font-variant-ligatures: none;
@@ -148,6 +152,38 @@ html {
   display: block;
   margin-top: 0.8rem;
   content: "";
+}
+
+.Beer-aside {
+  color: var(--beer-color);
+  display: flex;
+  flex-wrap: wrap;
+  
+  text-align: center;
+  font-family: "DINPro Medium";
+  font-size: 0.8em;
+}
+
+.Beer-aside div:nth-child(1) {
+  width: 100%;
+  border-bottom: none;
+}
+
+.Beer-aside div + div {
+  width: 50%;
+}
+
+.Beer-aside div:last-child {
+  border-left: none;
+}
+
+.Beer-aside div {
+  padding: 0.6rem;
+  border: 1px solid var(--beer-color);
+}
+
+.Beer-aside div {
+  width: 100%;
 }
 
 .Beer__GoldenAle {
