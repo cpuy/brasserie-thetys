@@ -56,7 +56,8 @@ html {
 }
 
 .Home-logo {
-  width: 60%;
+  width: 14rem;
+  height: auto;
   margin-top: 0.5rem;
 }
 
@@ -66,8 +67,17 @@ html {
   margin-bottom: 2rem;
 }
 
+.Beers {
+  margin: 2rem 0;
+}
+
 .Beer + .Beer {
   margin-top: 2rem;
+}
+
+.Beer {
+  max-width: 24rem;
+  margin: auto;
 }
 
 .Beer h2 {
@@ -135,7 +145,6 @@ html {
   margin-top: 0.8rem;
   content: "";
 }
-
 
 .Beer__GoldenAle h2 {
   color: #fcb24c;
