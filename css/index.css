@@ -175,6 +175,14 @@ html {
 }
 
 @media screen and (min-width: 54rem) {
+  .Beers {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 112rem;
+    margin: auto;
+  }
+
   .Beer {
     display: flex;
     align-items: center;
