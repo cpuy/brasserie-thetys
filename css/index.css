@@ -110,6 +110,15 @@ html {
   margin-bottom: 0.8rem;
 }
 
+.Beer h4 { 
+  font-family: "DINPro Bold";
+  font-size: 0.5em;
+  letter-spacing: 0.04em; 
+  margin-bottom: 0.5em;
+  color: black;
+  display: block;
+}
+
 .Beer-image {
   display: flex;
   align-items: flex-end;
