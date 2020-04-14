@@ -72,12 +72,11 @@ html {
 }
 
 .Beer + .Beer {
-  margin-top: 2rem;
 }
 
 .Beer {
+  margin: 5rem auto auto auto;
   max-width: 24rem;
-  margin: auto;
 
   background-repeat: no-repeat;
   background-position: center 145px;
@@ -222,5 +221,6 @@ html {
   .Beer-description {
     padding: 0;
     margin-top: 4rem;
+    max-width: 20rem;
   }
 }
