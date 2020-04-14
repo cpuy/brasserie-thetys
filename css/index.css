@@ -85,10 +85,16 @@ html {
   font-size: 1.6rem;
 }
 
+.Section {
+  margin: 4rem auto;
+}
+
 .Brewery {
   padding: 2rem;
   max-width: 52rem;
-  margin: 0 auto 1rem auto;
+  margin: auto;
+
+  text-align: center;
 }
 
 .Brewery p {
@@ -100,11 +106,8 @@ html {
   max-width: 100%;
   height: auto;
 
-  margin: 1rem auto;
-}
-
-.Beers {
-  margin: 2rem 0;
+  width: 50%;
+  margin-bottom: 1rem;
 }
 
 .Beer + .Beer {
