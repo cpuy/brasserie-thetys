@@ -51,20 +51,22 @@ html {
   text-align: center;
   background-image: url("../img/Front_pic.png");
   background-position: center;
-  background-size: auto 80%;
+  background-size: auto 65%;
   background-repeat: no-repeat;
 }
 
 .Home-logo {
   width: 14rem;
   height: auto;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 .Home-title {
   font-family: "DINPro Black";
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+
+  font-size: 1.6rem;
 }
 
 .Beers {
@@ -175,6 +177,21 @@ html {
 }
 
 @media screen and (min-width: 54rem) {
+  .Home {
+    background-position: center 60%;
+    background-size: auto 78%;
+  }
+
+  .Home-logo {
+    width: 16rem;
+    margin-top: 0.5rem;
+  }
+
+  .Home-title {
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+  }
+
   .Beers {
     display: flex;
     flex-wrap: wrap;
