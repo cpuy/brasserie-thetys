@@ -103,10 +103,10 @@ html {
 }
 
 .Brewery img {
-  max-width: 100%;
+  width: 50%;
+  max-width: 25rem;
   height: auto;
 
-  width: 50%;
   margin-bottom: 1rem;
 }
 
@@ -214,6 +214,10 @@ html {
 }
 
 @media screen and (min-width: 54rem) {
+  .Section {
+    margin: 5rem auto;
+  }
+
   .Home {
     background-position: center 60%;
     background-size: auto 78%;
@@ -227,6 +231,18 @@ html {
   .Home-title {
     margin-bottom: 1.5rem;
     line-height: 2rem;
+  }
+
+  .Brewery {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 60rem;
+  }
+
+  .Brewery-description {
+    flex: 1;
+    margin-left: 3rem;
   }
 
   .Beers {
