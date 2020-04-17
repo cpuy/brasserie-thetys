@@ -142,12 +142,22 @@ html {
   display: block;
 }
 
+.Beer h2 header {
+  font-family: "DINpro bold";
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 0.8rem;
+  color:black
+}
+
+
 .Beer h3 {
   font-size: 1rem;
   font-family: "DINPro Medium";
   text-transform: uppercase;
   margin-bottom: 0.8rem;
 }
+
 
 .Beer-image {
   display: flex;
