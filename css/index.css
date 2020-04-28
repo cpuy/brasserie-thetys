@@ -147,7 +147,7 @@ html {
   font-size: 1.2rem;
   display: block;
   margin-bottom: 0.8rem;
-  color:black
+  color: black;
 }
 
 .Beer h3 {
@@ -213,6 +213,45 @@ html {
 .Beer__FrenchPaleAle {
   --beer-color: #a9d046;
   --beer-image: url("../img/tildegreen.png");
+}
+
+.Social {
+  display: table;
+  margin: 0 auto 3rem auto;
+}
+
+.Social > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.Social > a:before {
+  width: 32px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.Social-facebook:before {
+  content: url("../img/brand/facebook-square-brands.svg");
+}
+
+.Social-instagram:before {
+  content: url("../img/brand/instagram-brands.svg");
+}
+
+.Social-mail:before {
+  content: url("../img/envelope-regular.svg");
+}
+
+.Address {
+  text-align: center;
+}
+
+.Address-line {
+  display: block;
 }
 
 @media screen and (min-width: 340px) {
@@ -291,5 +330,17 @@ html {
   .Beer-description {
     padding: 0;
     margin-top: 4rem;
+  }
+
+  .Contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 52rem;
+  }
+
+  .Social {
+    margin: 0;
   }
 }
