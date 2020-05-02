@@ -121,7 +121,8 @@ html {
   background-repeat: no-repeat;
   background-position: center 145px;
   background-size: auto 240px;
-  background-image: var(--beer-image);
+  background-image: url("../img/tilde.svg");
+  background-color: blue;
 }
 
 .Beer h2 {
@@ -192,7 +193,7 @@ html {
 
 .Beer__GoldenAle {
   --beer-color: #fcb24c;
-  --beer-image: url("../img/tildeorange.png");
+  --beer-image: url("../img/tilde.svg");
 }
 
 .Beer__Grisette {
