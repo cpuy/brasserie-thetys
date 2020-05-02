@@ -121,8 +121,20 @@ html {
   background-repeat: no-repeat;
   background-position: center 145px;
   background-size: auto 240px;
-  background-image: url("../img/tilde.svg");
-  background-color: blue;
+  /*background-image: url("../img/tilde.svg");*/
+  /*background-color: blue;*/
+}
+
+.Beer:before {
+  content: url('data:image/svg+xml;utf8,<svg stroke="black" fill="black" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="312" height="182" viewBox="0 0 312 182"><path d="M0 80 L 138 0 L 227 53 L 312 4 L 312 106 L 227 155 L 138 102 L 0 182 Z" /></svg>');
+
+  /*filter: invert(77%) sepia(28%) saturate(1082%) hue-rotate(336deg) brightness(98%) contrast(101%);*/
+  filter: var(--beer-image-filter)
+}
+
+.test {
+  stroke: aliceblue;
+  fill: azure;
 }
 
 .Beer h2 {
@@ -191,14 +203,18 @@ html {
   content: "";
 }
 
-.Beer__GoldenAle {
+.Beer__GoldenAle   {
   --beer-color: #fcb24c;
-  --beer-image: url("../img/tilde.svg");
+  /*--beer-image: url("../img/tilde.svg");*/
+  /*WRONG COLORS*/
+  /* https://codepen.io/sosuke/pen/Pjoqqp*/
+  --beer-image-filter: invert(77%) sepia(28%) saturate(1082%) hue-rotate(336deg) brightness(98%) contrast(101%);
 }
 
 .Beer__Grisette {
   --beer-color: #3ea4be;
-  --beer-image: url("../img/tildeblue.png");
+  /*--beer-image: url("../img/tildeblue.png");*/
+  --beer-image-filter: invert(61%) sepia(26%) saturate(891%) hue-rotate(145deg) brightness(89%) contrast(95%);
 }
 
 .Beer__BritishBrown {
