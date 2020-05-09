@@ -215,9 +215,26 @@ html {
   --beer-image: url("../img/tildegreen.png");
 }
 
+.Contact {
+  max-width: 24rem;
+}
+
+.Order {
+  padding: 0 1.5rem;
+  text-align: justify;
+}
+
+.Prices {
+  display: inline-block;
+  width: 100%;
+  margin-top: 1.5rem;
+  text-align: center;
+  color: inherit;
+}
+
 .Social {
   display: table;
-  margin: 0 auto 3rem auto;
+  margin: 3rem auto;
 }
 
 .Social > a {
@@ -338,6 +355,14 @@ html {
     align-items: center;
     justify-content: space-around;
     max-width: 52rem;
+  }
+
+  .Order {
+    margin-bottom: 4rem;
+  }
+
+  .Order p {
+    max-width: 40rem;
   }
 
   .Social {
