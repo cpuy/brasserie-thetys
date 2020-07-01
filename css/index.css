@@ -40,6 +40,10 @@ html {
   font-variant-ligatures: none;
 }
 
+a {
+  color: inherit;
+}
+
 .u-strong {
   font-family: "DINPro Medium";
 }
